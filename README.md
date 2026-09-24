@@ -10,7 +10,6 @@ Tool-based agent architecture
 Dynamic LLM selection based on task complexity
 🏗️ Architecture
 The system follows a hierarchical agent architecture:
-
 ┌─────────────────────────────────────────────────────────────┐
 │                    Data Agent (Router)                      │
 │         Routes user queries to appropriate sub-agents       │
@@ -30,7 +29,7 @@ The system follows a hierarchical agent architecture:
          ├─► Safety Validation   
          ├─► Query Execution     
          └─► Answer Generation   
-State Flow
+
 User Input → Natural language query
 Router Node → Classifies query as SQL or ETL
 Agent Dispatch → Routes to appropriate sub-agent
